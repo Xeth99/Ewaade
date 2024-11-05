@@ -7,6 +7,8 @@ function InputPage() {
   const handleCheckName = () => {
     if (name.trim().toLowerCase() === "ewaade") {
       setMessage("I love you, Ewaade ❤️");
+    } else if (name.trim().toLowerCase() === "wura") {
+      setMessage("Na your name be that? 😏");
     } else {
       setMessage("You are not mine. Wetin you dey look for 😏.");
     }
