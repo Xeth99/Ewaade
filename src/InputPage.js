@@ -35,11 +35,7 @@ function InputPage() {
           </button>
         </div>
         {message && (
-          <p
-            className={`mt-4 ${
-              name === "ewaade" ? "text-primary" : "text-error"
-            }`}
-          >
+          <p className={`mt-4 ${name.trim().toLowerCase() === "ewaade" ? "text-primary" : "text-error"}`}>
             {message}
           </p>
         )}
